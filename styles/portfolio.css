@@ -1,113 +1,81 @@
 /* header styles */
 
-.header {
-    display: flex;
-    max-width: 1600px;
-    align-items: center;
-    background-image: url(../images/banner/banner3.png);
-    background-repeat: no-repeat;
-
+header{
+    background-image: url('../images/banner/banner1.png');
+    background-size: cover;
+    width: 1600px;
+    height: 808px;
 }
-
-.banner {
-    text-align: right;
-    margin: 230px 800px;
-    padding: 25px;
-
+.header-section{
+   text-align: right;
+   padding: 230px 200px 100px 800px;
 }
-
-.title {
+.header-section .title{
     font-weight: 700;
     font-size: 65px;
-    width: 525px;
-    height: 228px;
-    color: whitesmoke;
+    color: #151414;
 }
-
-.sub-title {
-    color: whitesmoke;
-    font-weight: 400px;
-    font-size: 16px;
-    width: 494px;
-    height: 78px;
+.header-section .description{
+    padding: 10px 0;
 }
-
-.btn-primary {
+.btn-primary{
+    font-size: 20px;
+    background: #F15B22;
+    color: #FFFFFF;
     width: 160px;
     height: 64px;
-    background: gray;
-    border-radius: 5px;
-    color: #FFFFFF;
-    text-align: center;
-    font-weight: 600;
-    font-size: 20px;
     border: 0;
-
+    margin: 20px;
 }
-
 /* section-part */
-.section-title {
-    width: 1072px;
+.failure-container{
+    margin-top: 100px;
     display: flex;
-    margin: 153px 322px 130px 206px;
-    margin-bottom: 520px;
-    background: #FFFFFF;
-
-
 }
-
-.section-info-title {
-    width: 288px;
-    margin-top: 392px;
-    margin-bottom: 390px;
-    margin-left: 80px;
-
-}
-
-.section-1 {
-
-    color: #151414;
+.title-primary{
+    padding: 50px 60px 40px 10px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 60px;
+    color: #151414;
 }
-
-.paragraph-title {
+.failure-content{
+    height: 700px;
+    width: 900px;
+    padding: 200px 300px 100px 130px;
+}
+.failure-container .title{
+    padding:0;
+}
+.failure-container .description{
+    padding:0 200px 10px 0;
+}
+.failure-ul{
+    padding-left: 30px ;
+    list-style-image: url('../images/icons/check1.png');
+}
+.failure-li{
     color: #444343;
-}
+    font-weight: 400;
+    font-size: 20px;
+}          
 
-.another-section-title {
-
+.our-plans{
+    padding: 0  230px 30px 230px;
     text-align: center;
-    font-weight: 700;
-    font-size: 40px;
+    height: 300px;
+    width: 1100px;
 }
-
-.sub-section-title {
-    width: 1141px;
-    height: 202.96px;
-}
-
-.all-section {
+.plans-container{
+    justify-content: center;
     display: flex;
-    margin: 50px 230px 130px 230px;
+    gap: 80px;
+    padding: 20px;
 }
-
-.title-sub-title {
-    width: 270px;
-    height: 35px;
-    font-weight: 700;
+.plan-sub-title{
     font-size: 30px;
-    color: #151414;
 }
-
-.description {
-    width: 177px;
-    height: 29px;
-    font-weight: 500;
-    font-size: 25px;
-}
-
-.call-now {
+/* call now section  */
+.call-now{
     background: url('../images/watch.png'), url('../images/gradient3.png');
     background-blend-mode: multiply;
     background-position: center;
@@ -116,75 +84,62 @@
     height: 300px;
     padding: 130px 230px;
 }
-
-.call-now-container {
+.call-now-container{
     margin: 45px 64px;
 }
-
-.call-now .title {
+.call-now .title{
     padding-right: 500px;
     color: #FFFFFF;
     font-size: 40px;
     margin-bottom: 20px;
 }
-
-.call-now .btn-primary {
+.call-now .btn-primary{
     color: #F15B22;
     background-color: #FFFFFF;
     font-size: 20px;
     margin: 0;
 }
-
 /* footer  */
-footer {
+footer{
     background-color: #151414;
     width: 1150px;
     height: 300px;
     display: flex;
     padding: 130px 230px;
-    gap: 30px;
+    gap:30px;
 }
-
-.footer-title {
+.footer-title{
     color: #FFFFFF;
     font-size: 40px;
 }
-
-.footer-description {
+.footer-description{
     color: #FFFFFF;
     padding-top: 20px;
 }
-
-.footer-description {
+.footer-description{
     margin-top: 10px;
     padding-right: 100px;
 }
-
-.contact-address {
-    padding-right: 100px;
+.contact-address{
+   padding-right: 100px;
 }
-
-.subscribe-title {
+.subscribe-title{
     color: #FFFFFF;
 }
-
-.subscribe {
+.subscribe{
     padding: 0 100px;
 }
-
-.subscribe-title {
+.subscribe-title{
     font-size: 30px;
     margin-bottom: 40px;
 }
-
-#subscribe-email {
+#subscribe-email{
     background-color: #151414;
     border: 2px solid white;
     border-radius: 8px;
     padding: 20px 150px 20px 20px;
 }
-
-.subscribe .btn-primary {
+.subscribe .btn-primary{
     color: #F15B22;
     background-color: #FFFFFF;
     font-size: 20px;
@@ -193,8 +148,7 @@ footer {
     padding: 10px;
     border-radius: 8px;
 }
-
-.footer-icons {
+.footer-icons{
     margin-top: 30px;
     display: flex;
     gap: 20px;
