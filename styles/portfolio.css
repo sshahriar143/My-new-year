@@ -20,11 +20,11 @@
     font-size: 65px;
     width: 525px;
     height: 228px;
-    color: #FFFFFF;
+    color: whitesmoke;
 }
 
 .sub-title {
-    color: #FFFFFF;
+    color: whitesmoke;
     font-weight: 400px;
     font-size: 16px;
     width: 494px;
@@ -68,4 +68,31 @@ font-size: 40px;
 }
 .paragraph-title{
     color: #444343;
+}
+.another-section-title{
+
+text-align: center;
+font-weight: 700;
+font-size: 40px;
+}
+.sub-section-title{
+    width: 1141px;
+    height: 202.96px;
+}
+.all-section{
+    display: flex;
+    margin: 50px 230px 130px 230px;
+}
+.title-sub-title{
+width: 270px;
+height: 35px;
+font-weight: 700;
+font-size: 30px;
+color: #151414;
+}
+.description{
+    width: 177px;
+    height: 29px;
+    font-weight: 500;
+font-size: 25px;
 }
